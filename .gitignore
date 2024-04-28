@@ -3,7 +3,8 @@ out/
 src/fundamentals/shapes
 !**/src/main/**/out/
 !**/src/test/**/out/
-myproject.iml
+*.iml
+.idea/
 ### Eclipse ###
 .apt_generated
 .classpath
