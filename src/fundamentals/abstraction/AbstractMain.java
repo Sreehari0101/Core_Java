@@ -1,4 +1,4 @@
-package fundamentals.abstractdemo;
+package fundamentals.abstraction;
 
 public class AbstractMain {
     public static void main(String[] args){

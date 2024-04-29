@@ -1,4 +1,4 @@
-package fundamentals.abstractdemo;
+package fundamentals.abstraction;
 
 public class PermanentEmployee extends Employee{
     @Override

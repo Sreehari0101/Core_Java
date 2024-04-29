@@ -1,4 +1,4 @@
-package fundamentals.abstractdemo;
+package fundamentals.abstraction;
 public class ContractEmployee extends Employee {
     @Override
     public double calculateSalary(String employeeType) {

@@ -1,5 +1,4 @@
-package fundamentals.abstractdemo;
-
+package fundamentals.abstraction;
 public abstract class Employee {
     private final String companyName = "xyz Private Limited";
 

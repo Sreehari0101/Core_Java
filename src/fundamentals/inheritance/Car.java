@@ -1,4 +1,4 @@
-package fundamentals.inheritancedemo;
+package fundamentals.inheritance;
 
 public class Car extends Vehicle{
     public long buildNumber;

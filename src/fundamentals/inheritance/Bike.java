@@ -1,4 +1,4 @@
-package fundamentals.inheritancedemo;
+package fundamentals.inheritance;
 
 public class Bike extends Vehicle{
     public Bike(){
