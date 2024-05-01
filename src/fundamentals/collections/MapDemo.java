@@ -26,13 +26,14 @@ public class MapDemo {
         treemap.put("H",8);
         treemap.put("J",10);
         treemap.put("I",9);
+        treemap.put("L",12);
+        treemap.put("K",11);
+        System.out.println(treemap.higherKey("I"));
+        System.out.println(treemap.lowerKey("I"));
+        System.out.println(treemap.firstEntry());
+        System.out.println(treemap.lastEntry());
+        System.out.println(treemap.subMap("I",true,"K",true));
         System.out.println(treemap);
-
-
-
-
-
-
 
     }
 }
