@@ -1,7 +1,6 @@
 ### IntelliJ IDEA ###
 out/
 src/fundamentals/shapes
-src/fundamentals/fileexception
 !**/src/main/**/out/
 !**/src/test/**/out/
 *.iml
