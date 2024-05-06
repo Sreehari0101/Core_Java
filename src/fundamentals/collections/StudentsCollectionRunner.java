@@ -12,7 +12,6 @@ class Desc implements Comparator<Student>{
         return Integer.compare(o2.getId(), o1.getId());
     }
 }
-
 public class StudentsCollectionRunner {
     public static void main(String[] args){
         // Creating an immutable list of students
@@ -29,6 +28,27 @@ public class StudentsCollectionRunner {
 
         // Print the initial order of students
         System.out.println("Initial Order: " + studentsAl);
+
+        // Update operation
+        int updateId = 3;
+        String newName = "Jake";
+        for (Student student : studentsAl) {
+            if (student.getId() == updateId) {
+                student.setName(newName);
+                break;
+            }
+        }
+        System.out.println("After Updating Jakes to Jake: " + studentsAl);
+
+        //Delete Operation
+        int deleteId = 4;
+        for(Student student: studentsAl){
+            if (student.getId() == deleteId) {
+                studentsAl.remove(student);
+                break;
+            }
+        }
+         System.out.println("After Deleting 4 Donald: " + studentsAl);
 
         // Sorting students in ascending order based on natural ordering (ID)
         Collections.sort(studentsAl);

@@ -19,7 +19,5 @@ public class LinkedListDemo {
         Collections.sort(lin);
         System.out.println(lin);
         System.out.println(lin);
-
-
     }
 }
