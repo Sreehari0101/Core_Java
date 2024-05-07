@@ -1,0 +1,3 @@
+Formatted Output:
+Name: John Doe, Age: 25, Grade: 85.50
+End of File

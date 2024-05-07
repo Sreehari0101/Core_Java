@@ -1,1 +1,3 @@
-Hi I am Sreehari , 22 years old
+Hello, world!
+This is a sample text file.
+Java is fun!
