@@ -1,6 +1,7 @@
 ### IntelliJ IDEA ###
 out/
 src/fundamentals/shapes
+src/practice
 !**/src/main/**/out/
 !**/src/test/**/out/
 *.iml
